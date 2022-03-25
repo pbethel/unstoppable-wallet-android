@@ -402,10 +402,6 @@ interface IFeeRateProvider {
     }
 }
 
-interface ICustomRangedFeeProvider : IFeeRateProvider {
-    val customFeeRange: LongRange
-}
-
 interface IAddressParser {
     fun parse(paymentAddress: String): AddressData
 }
