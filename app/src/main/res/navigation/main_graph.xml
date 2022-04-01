@@ -470,6 +470,10 @@
         android:id="@+id/sendXFragment"
         android:name="io.horizontalsystems.bankwallet.modules.sendx.SendXFragment" />
 
+    <fragment
+        android:id="@+id/sendConfirmation"
+        android:name="io.horizontalsystems.bankwallet.modules.sendx.SendConfirmationFragment" />
+
     <!--  Dialogs/BottomSheets  -->
     <!--    <dialog-->
     <!--        android:id="@+id/transactionInfoDialog"-->
